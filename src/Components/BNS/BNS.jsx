@@ -9,7 +9,7 @@ const [error, setError] = useState('');
 
 const handleConvert = async () => {
     try {
-        const response = await axios.get(`https://legallookup.vercel.app/api/allsections`, {
+        const response = await axios.get(`https://legallookup-backend.vercel.app/api/allsections`, {
         params: { bns_section: bnsSection },
     });
     const data = response.data.find((section) => section.bns_section === bnsSection);

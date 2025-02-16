@@ -34,8 +34,12 @@ The **IPC-to-BNS Converter and Legal Search Engine** aims to ease the transition
 ### 3. Legal Search Engine
    - Enables users to search for IPC and BNS sections using keywords and provides detailed case descriptions for relevant matches.
 
+## Website
+
+Check our website LegalLookup : A Legal Search Tool. Access it [here](https://legal-lookup.vercel.app/).
+
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/IPC-to-BNS-Convertor-and-Legal-Search-Engine.git
+   git clone https://github.com/Abdul-Wasih03/LegalLookup.git

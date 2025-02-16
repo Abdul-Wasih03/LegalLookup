@@ -9,7 +9,7 @@ const IpctoBnsConverter = () => {
 
   const handleConvert = async () => {
     try {
-      const response = await axios.get(`https://legallookup.vercel.app/api/allsections`, {
+      const response = await axios.get(`https://legallookup-backend.vercel.app/api/allsections`, {
         params: { ipc_section: ipcSection },
       });
       const data = response.data.find((section) => section.ipc_section === ipcSection);

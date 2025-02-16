@@ -9,7 +9,7 @@ const LegalSearchEngine = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`https://legallookup.vercel.app/api/allsections`, {
+      const response = await axios.get(`https://legallookup-backend.vercel.app/api/allsections`, {
         params: { keyword: keyword },
       });
       const matchedResults = response.data.filter((section) =>
