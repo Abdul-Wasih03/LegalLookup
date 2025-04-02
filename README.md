@@ -1,4 +1,4 @@
-# LegalLookup : A Legal Search Tool
+# LegalLookup : A Legal Section Mapping Tool
 
 A web-based project designed to streamline the transition between the Indian Penal Code (IPC) and the Bharatiya Nyaya Sanhita (BNS) by providing an interactive search tool and interesting legal cases for users. This tool offers an accessible way for users to understand changes in Indian law, search for relevant legal sections based on keywords, and explore notable cases in Indian legal history.
 
